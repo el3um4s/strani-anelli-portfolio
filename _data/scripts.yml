@@ -17,6 +17,6 @@ footer:
   # WOW JS
   - assets/js/wow.min.js
   # CONTACT FORM JS
-  - assets/js/form-contact.js
+  # - assets/js/form-contact.js
   # SCRIPT JS
   - assets/js/scripts.js
