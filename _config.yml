@@ -12,7 +12,21 @@ author:
 sezioni:
   about:
       titolo: About Strani Anelli
-      contenutoh2: ciaomondo
+      contenutoh2: I'm an indie developer focused on experimenting things!
+      testo1: Hello, I'm Samuele aka Strani Anelli and I'm appassionate about tech stuff.
+        Over the years I experimented on many branch - now I'm exploring web technology and game development.
+        I can use Electron, Vue.js and Construct 3 and I'm studing TensorFlow.
+      testo2: I love testing new things and I am strongly convinced that <strong>learning one new thing every day is the way to find happiness</strong>.
+      skills:
+        - Electron
+        - Vue.js
+        - Construct 3
+        - Front-end development
+        - TensorFlow.js
+        - Web Design
+        - Game Design
+        - Inkscape
+        - Liquid
 
 # Exclude these files from production site
 exclude:
