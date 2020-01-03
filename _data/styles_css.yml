@@ -2,7 +2,9 @@ head:
   # BOOTSTRAP CSS
   - assets/bootstrap/css/bootstrap.min.css
   # GOOGLE FONTS
-  - https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Montserrat:300,400,500,600,700,800,900|Dancing+Script:400,700&subset=latin-ext
+  - https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap&subset=latin-ext
+  - https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap&subset=latin-ext
+  - https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap&subset=latin-ext
   # FONT AWESOME CSS
   - assets/fonts/font-awesome.min.css
   # OWL CAROSEL CSS
