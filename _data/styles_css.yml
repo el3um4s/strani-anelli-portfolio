@@ -1,0 +1,20 @@
+head:
+  # BOOTSTRAP CSS
+  - assets/bootstrap/css/bootstrap.min.css
+  # GOOGLE FONTS
+  - https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Montserrat:300,400,500,600,700,800,900|Dancing+Script:400,700&subset=latin-ext
+  # FONT AWESOME CSS
+  - assets/fonts/font-awesome.min.css
+  # OWL CAROSEL CSS
+  - assets/owlcarousel/css/owl.carousel.css
+  - assets/owlcarousel/css/owl.theme.css
+  # MAGNIFIC CSS
+  - assets/css/magnific-popup.css
+  # ANIMATE CSS
+  - assets/css/animate.min.css
+  - assets/css/effects.css
+  - assets/css/YTPlayer.css
+  # MAIN STYLE CSS
+  - assets/css/style.css
+  # RESPONSIVE CSS
+  - assets/css/responsive.css
