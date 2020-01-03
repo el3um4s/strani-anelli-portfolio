@@ -9,6 +9,11 @@ description: Personal Portfolio
 author:
   name: Samuele De Tomasi
 
+sezioni:
+  about:
+      titolo: About Strani Anelli
+      contenutoh2: ciaomondo
+
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
