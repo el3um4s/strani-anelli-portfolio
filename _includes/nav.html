@@ -1,3 +1,4 @@
+<!-- START MENU DESIGN AREA -->
 <div class="mainmenu">
     <div class="navbar navbar-nobg">
         <div class="navbar-header">
@@ -10,7 +11,7 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a class="smoth-scroll" href="#home">Home<div class="ripple-wrapper"></div></a>
+                <!-- <li class="active"><a class="smoth-scroll" href="#home">Home<div class="ripple-wrapper"></div></a>
                 </li>
                 <li><a class="smoth-scroll" href="#about">About</a>
                 </li>
@@ -19,8 +20,13 @@
                 <li><a class="smoth-scroll" href="#contact">Contact</a>
                 </li>
                 <li><a class="smoth-scroll" href="http://stranianelli.com/blog/" target="_blank">Blog</a>
+                </li> -->
+                {% for item in site.data.navigation %}
+                <li><a class="smoth-scroll" href="{{ item.link }}">{{ item.name }}</a>
                 </li>
+                {% endfor %}
             </ul>
         </div>
     </div>
 </div>
+<!-- END MENU DESIGN AREA -->

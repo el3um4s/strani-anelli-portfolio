@@ -11,67 +11,11 @@
                     <!-- END LOGO DESIGN AREA -->
                 </div>
                 <div class="col-sm-9">
-                    <!-- START MENU DESIGN AREA -->
-                    <div class="mainmenu">
-                        <div class="navbar navbar-nobg">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            <div class="navbar-collapse collapse">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li class="active"><a class="smoth-scroll" href="#home">Home<div class="ripple-wrapper"></div></a>
-                                    </li>
-                                    <li><a class="smoth-scroll" href="#about">About</a>
-                                    </li>
-                                    <li><a class="smoth-scroll" href="#work">Work</a>
-                                    </li>
-                                    <li><a class="smoth-scroll" href="#contact">Contact</a>
-                                    </li>
-                                    <li><a class="smoth-scroll" href="http://stranianelli.com/blog/" target="_blank">Blog</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END MENU DESIGN AREA -->
+                    {% include nav.html %}
                 </div>
             </div>
         </div>
     </div>
-    <div class="welcome-image-area particle-bg" data-stellar-background-ratio="0.6">
-        <div id="particles-js"></div>
-        <div class="display-table">
-            <div class="display-table-cell">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="header-text text-center">
-                                <h1 class="typewrite" data-period="2000" data-type='[ "Hi, I am Strani Anelli.", "I am Developer.", "I am creative.", "I am from Italy", "I am Samuele" ]'>
-                                    <span class="wrap"></span>
-                                </h1>
-                                <div class="social-links header-links">
-                                    <ul>
-                                        <li><a href="https://www.facebook.com/stranianelli/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="https://twitter.com/el3um4s" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                        <!--<li><a href=""><i class="fa fa-google-plus"></i></a></li>-->
-                                        <li><a href="https://github.com/el3um4s" target="_blank"><i class="fa fa-github"></i></a></li>
-                                        <li><a href="http://stranianelli.com/blog/" target="_blank"><i class="fa fa-wordpress"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="home-arrow-down">
-                                    <a href="#about" class="smoth-scroll btn"><i class="fa fa-angle-double-down"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    {% include welcome-area.html %}
 </header>
 <!-- / END HOMEPAGE DESIGN AREA -->
