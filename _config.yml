@@ -1,0 +1,21 @@
+# --- General options --- #
+
+# Name of website
+title: Strani Anelli
+
+# Short description of your site
+description: Personal Portfolio
+
+author:
+  name: Samuele De Tomasi
+
+# Exclude these files from production site
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Vagrantfile

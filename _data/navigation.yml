@@ -1,0 +1,10 @@
+- name: Home
+  link: '#home'
+- name: About
+  link: '#about'
+- name: Work
+  link: '#work'
+- name: Contact
+  link: '#contact'
+- name: Blog
+  link: 'http://stranianelli.com/blog/'
