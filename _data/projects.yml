@@ -1,0 +1,81 @@
+categorie:
+  - new
+  - old
+  - construct3
+  - webapp
+  - electron
+progetto:
+  - name: Square Tune
+    visibile: true
+    link: app/squaretune/
+    title: Square Tune
+    description: Create Chiptune with a board
+    immagine: assets/images/work/squaretune.gif
+    categoria:
+      - old
+      - webapp
+  - name: 4 Random Common Word
+    visibile: true
+    link: Progetti/4RndCommonWord/
+    title: 4 Random Common Word
+    description: Secure Passphrase Generator
+    immagine: assets/images/work/4rnd-common-word.gif
+    categoria:
+      - old
+      - webapp
+  - name: Markdown editor
+    visibile: true
+    link: https://el3um4s.github.io/construct-html-element-plugin/www/free-code-camp/build-a-markdown-previewer/
+    title: Markdown editor
+    description: A simple free markdown editor and previewer
+    immagine: assets/images/work/markdown.gif
+    categoria:
+      - new
+      - webapp
+  - name: Vue Calc
+    visibile: true
+    link: https://github.com/el3um4s/vue-calc/
+    title: Vue Calc
+    description: A Simple VueJS's Calculator built with ElectronJS
+    immagine: assets/images/work/vue-calc.jpg
+    categoria:
+      - new
+      - vuejs
+      - electron
+  - name: Random Quote Machine
+    visibile: true
+    link: https://el3um4s.github.io/construct-html-element-plugin/www/free-code-camp/build-a-random-quote-machine/
+    title: Random Quote Machine
+    description: Generate random motivational quotes
+    immagine: assets/images/work/random-quote-machine.gif
+    categoria:
+      - new
+      - webapp
+  - name: Bubbly Background
+    visibile: true
+    link: https://el3um4s.github.io/c3-global-plugin-bubbly-background/
+    title: Bubbly Background
+    description: Change the predifined background with a fancy bubbly one
+    immagine: assets/images/work/bubbly-background.jpg
+    categoria:
+      - old
+      - construct3
+      - webapp
+  - name: Construct Inject CSS Plugin
+    visibile: true
+    link: https://el3um4s.github.io/construct-inject-css-plugin/
+    title: Construct Inject CSS Plugin
+    description: Use CSS stylesheet in Construct 3 and inject simple html elements
+    immagine: assets/images/work/inject-css.jpg
+    categoria:
+      - old
+      - construct3
+  - name: HTML Element
+    visibile: true
+    link: https://el3um4s.github.io/construct-html-element-plugin/
+    title: HTML Element
+    description: The power of the HTML5 inside Construct3
+    immagine: assets/images/work/html-element.jpg
+    categoria:
+      - new
+      - construct3

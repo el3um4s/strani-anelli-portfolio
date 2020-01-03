@@ -11,121 +11,28 @@
         <div class="row">
             <ul class="work">
                 <li class="filter" data-filter="all">all</li>
-                <li class="filter" data-filter=".new">new</li>
-                <li class="filter" data-filter=".old">old</li>
-                <li class="filter" data-filter=".construct3">construct3</li>
-                <li class="filter" data-filter=".webapp">webapp</li>
-                <li class="filter" data-filter=".electron">electron</li>
+                {% for categoria in site.data.projects.categorie %}
+                    <li class="filter" data-filter=".{{ categoria }}">{{ categoria }}</li>
+                {% endfor %}
             </ul>
         </div>
         <div class="work-inner">
             <div class="row work-posts grid">
-                <!-- START SINGLE WORK DESIGN AREA -->
-                <div class="col-md-4 col-sm-6 mix old webapp">
-                    <div class="item">
-                        <a href="app/squaretune/" target="_blank">
-                            <figure class="effect-ruby">
-                                <img src="assets/images/work/squaretune.gif" alt="image">
-                                <figcaption>
-                                    <h2>Square Tune</h2>
-                                    <p>Create Chiptune with a board</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mix old webapp">
-                    <div class="item">
-                        <a href="Progetti/4RndCommonWord/" target="_blank">
-                            <figure class="effect-ruby">
-                                <img src="assets/images/work/4rnd-common-word.gif" alt="image">
-                                <figcaption>
-                                    <h2>4 Random Common Word</h2>
-                                    <p>Secure Passphrase Generator</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mix new webapp">
-                    <div class="item">
-                        <a href="https://el3um4s.github.io/construct-html-element-plugin/www/free-code-camp/build-a-markdown-previewer/" target="_blank">
-                            <figure class="effect-ruby">
-                                <img src="assets/images/work/markdown.gif" alt="image">
-                                <figcaption>
-                                    <h2>Markdown editor</h2>
-                                    <p>A simple free markdown editor and previewer</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mix new vuejs electron ">
-                    <div class="item">
-                        <a href="https://github.com/el3um4s/vue-calc/" target="_blank" class="">
-                            <figure class="effect-ruby">
-                                <img src="assets/images/work/vue-calc.jpg" alt="image">
-                                <figcaption>
-                                    <h2>Vue Calc</h2>
-                                    <p>A Simple VueJS's Calculator built with ElectronJS</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mix new webapp">
-                    <div class="item">
-                        <a href="https://el3um4s.github.io/construct-html-element-plugin/www/free-code-camp/build-a-random-quote-machine/" target="_blank" class="">
-                            <figure class="effect-ruby">
-                                <img src="assets/images/work/random-quote-machine.gif" alt="image">
-                                <figcaption>
-                                    <h2>Random Quote Machine</h2>
-                                    <p>Generate random motivational quotes.</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mix old construct3 webapp">
-                    <div class="item">
-                        <a href="https://el3um4s.github.io/c3-global-plugin-bubbly-background/" target="_blank" class="">
-                            <figure class="effect-ruby">
-                                <img src="assets/images/work/bubbly-background.jpg" alt="image">
-                                <figcaption>
-                                    <h2>Bubbly Background</h2>
-                                    <p>Change the predifined background with a fancy bubbly one.</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mix old construct3">
-                    <div class="item">
-                        <a href="https://el3um4s.github.io/construct-inject-css-plugin/" target="_blank" class="">
-                            <figure class="effect-ruby">
-                                <img src="assets/images/work/inject-css.jpg" alt="image">
-                                <figcaption>
-                                    <h2>Construct Inject CSS Plugin</h2>
-                                    <p>Use CSS stylesheet in Construct 3 and inject simple html elements.</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mix new construct3">
-                    <div class="item">
-                        <a href="https://el3um4s.github.io/construct-html-element-plugin/" target="_blank" class="">
-                            <figure class="effect-ruby">
-                                <img src="assets/images/work/html-element.jpg" alt="image">
-                                <figcaption>
-                                    <h2>HTML Element</h2>
-                                    <p>The power of the HTML5 inside Construct3.</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                </div>
+              {% for progetto in site.data.projects.progetto %}
+                  <div class="col-md-4 col-sm-6 mix {{ progetto.categoria | join: ' ' }}">
+                      <div class="item">
+                          <a href="{{ progetto.link }}" target="_blank" class="">
+                              <figure class="effect-ruby">
+                                  <img src="{{ progetto.immagine }}" alt="{{ progetto.title }}">
+                                  <figcaption>
+                                      <h2>{{ progetto.title }}</h2>
+                                      <p>{{ progetto.description }}</p>
+                                  </figcaption>
+                              </figure>
+                          </a>
+                      </div>
+                  </div>
+              {% endfor %}
             </div>
         </div>
     </div>
