@@ -10,7 +10,7 @@ progetto:
     link: app/squaretune/
     title: Square Tune
     description: Create Chiptune with a board
-    immagine: assets/images/work/squaretune.gif
+    immagine: assets/images/work/squaretune.webp
     categoria:
       - old
       - webapp
@@ -19,7 +19,7 @@ progetto:
     link: Progetti/4RndCommonWord/
     title: 4 Random Common Word
     description: Secure Passphrase Generator
-    immagine: assets/images/work/4rnd-common-word.gif
+    immagine: assets/images/work/4rnd-common-word.webp
     categoria:
       - old
       - webapp
@@ -28,7 +28,7 @@ progetto:
     link: https://el3um4s.github.io/construct-html-element-plugin/www/free-code-camp/build-a-markdown-previewer/
     title: Markdown editor
     description: A simple free markdown editor and previewer
-    immagine: assets/images/work/markdown.gif
+    immagine: assets/images/work/markdown.webp
     categoria:
       - new
       - webapp
@@ -37,7 +37,7 @@ progetto:
     link: https://github.com/el3um4s/vue-calc/
     title: Vue Calc
     description: A Simple VueJS's Calculator built with ElectronJS
-    immagine: assets/images/work/vue-calc.jpg
+    immagine: assets/images/work/vue-calc.webp
     categoria:
       - new
       - vuejs
@@ -47,7 +47,7 @@ progetto:
     link: https://el3um4s.github.io/construct-html-element-plugin/www/free-code-camp/build-a-random-quote-machine/
     title: Random Quote Machine
     description: Generate random motivational quotes
-    immagine: assets/images/work/random-quote-machine.gif
+    immagine: assets/images/work/random-quote-machine.webp
     categoria:
       - new
       - webapp
@@ -56,7 +56,7 @@ progetto:
     link: https://el3um4s.github.io/c3-global-plugin-bubbly-background/
     title: Bubbly Background
     description: Change the predifined background with a fancy bubbly one
-    immagine: assets/images/work/bubbly-background.jpg
+    immagine: assets/images/work/bubbly-background.webp
     categoria:
       - old
       - construct3
@@ -66,7 +66,7 @@ progetto:
     link: https://el3um4s.github.io/construct-inject-css-plugin/
     title: Construct Inject CSS Plugin
     description: Use CSS stylesheet in Construct 3 and inject simple html elements
-    immagine: assets/images/work/inject-css.jpg
+    immagine: assets/images/work/inject-css.webp
     categoria:
       - old
       - construct3
@@ -75,7 +75,7 @@ progetto:
     link: https://el3um4s.github.io/construct-html-element-plugin/
     title: HTML Element
     description: The power of the HTML5 inside Construct3
-    immagine: assets/images/work/html-element.jpg
+    immagine: assets/images/work/html-element.wwebp
     categoria:
       - new
       - construct3

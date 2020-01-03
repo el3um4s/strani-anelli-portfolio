@@ -196,7 +196,7 @@ fieldset {
     position: relative;
     height: 100%;
     /*background: url(../images/bg/bg.jpg);*/
-    background: url(../images/bg/kevinku.jpg);
+    background: url(../images/bg/kevinku.webp);
     background-size: cover;
     z-index: 1;
 }
@@ -216,7 +216,7 @@ fieldset {
     position: relative;
     height: 100%;
     /*background: url(../images/bg/bg2.jpg);*/
-    background: url(../images/bg/kevinku.jpg);
+    background: url(../images/bg/kevinku.webp);
     background-size: cover;
     z-index: 1;
 }
