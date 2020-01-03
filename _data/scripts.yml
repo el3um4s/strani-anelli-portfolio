@@ -1,0 +1,22 @@
+footer:
+  # LATEST JQUERY
+  - assets/js/jquery.min.js
+  # BOOTSTRAP JS
+  - assets/bootstrap/js/bootstrap.min.js
+  #  OWL CAROUSEL JS
+  - assets/owlcarousel/js/owl.carousel.min.js
+  # MIXITUP JS
+  - assets/js/jquery.mixitup.js
+  # PARALLAX JS
+  - assets/js/jquery.stellar.min.js
+  - assets/js/particles.min.js
+  - assets/js/app.js
+  # MAGNIFICANT JS
+  - assets/js/jquery.magnific-popup.min.js
+  - assets/js/jquery.mb.YTPlayer.min.js
+  # WOW JS
+  - assets/js/wow.min.js
+  # CONTACT FORM JS
+  - assets/js/form-contact.js
+  # SCRIPT JS
+  - assets/js/scripts.js
