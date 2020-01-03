@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- jQuery library -->
+    <script src="jquery-3.1.1.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+    <!--
+    <link rel="stylesheet" href="font.css">
+    -->
+
+    <script src="randomColor.js"></script>
+    <script src="randomFace.js"></script>
+
+    <title>Prova</title>
+
+    <script>
+        $(document).ready(function() {
+
+            console.log("2017.02.16.17.25");
+
+            var faccia = new RandomFace();
+
+            console.log(faccia.visoArray);
+            console.log(faccia.visoTesto);
+            console.log(faccia.visoHTML);
+
+
+
+            $('#visoRandom').html(faccia.visoHTML);
+
+            //faccia.cambiaColore("green");
+            faccia.cambiaColore();
+            console.log(faccia);
+            $('#visoRandom').html(faccia.visoHTML);
+
+            faccia.nuovoViso();
+            console.log(faccia.visoArray);
+            console.log(faccia.visoTesto);
+            console.log(faccia.visoHTML);
+
+            faccia.verifica();
+
+        })
+
+    </script>
+</head>
+
+<body>
+    <div class="Nosyoutput" id="visoRandom"></div>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+body {
+  font-family:'Lato', sans-serif;
+  font-size:large;
+  color:#666;
+  background-color:#eff7fb;
+}
+
+#logo {
+  max-height:42px;
+  margin-top:-5px;
+}
+
+#pagina {
+  margin-top:64px;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+#calculator {
+  margin:auto;
+  width:300px;
+  border:1px solid black;
+  font-size:x-large;
+}
+
+#schermo-calcolatrice {
+  width:100%;
+  border:1px solid;
+  background:black;
+  color:white;
+  text-align:right;
+  align-items:center;
+  padding:8px;
+}
+
+#pulsanti {
+  width:100%;
+  height:auto;
+  display:flex;
+  flex-direction:column;
+  margin:auto;
+}
+
+.pulsante {
+  height:50px;
+  background:white;
+  outline:1px solid;
+  outline-offset:0px;
+  outline-color:black;
+  color:rgb(252,250,250);
+  display:flex;
+  flex-direction:column;
+}
+
+.pulsante:hover {
+  background:rgb(255,255,175);
+  color:rgb(92,99,92);
+}
+
+.riga-pulsanti {
+  display:flex;
+  flex-direction:row;
+  flex-grow:1;
+}
+
+.dim-1 {
+  flex-grow:1;
+  width:50px;
+}
+
+.dim-2 {
+  flex-grow:2;
+  width:100px;
+}
+
+.etichetta {
+  margin:auto;
+  width:80%;
+  text-align:center;
+}
+
+.pulsante-numero {
+  background:#4d4d4d;
+}
+
+.pulsante-ac {
+  background:#ac3939;
+}
+
+.pulsante-operazioni {
+  background:#666666;
+}
+
+.pulsante-uguale {
+  background:#009966;
+}
+
+.pulsante-decimale {
+  background:#004466;
+}
+

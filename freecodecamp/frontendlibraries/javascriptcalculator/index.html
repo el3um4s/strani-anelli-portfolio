@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeCodeCamp - Front Edn Frameworks - Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand navbar-link" href="http://stranianelli.com/freecodecamp/"><img src="http://stranianelli.com/freecodecamp/icon-nome-fcc-svg.svg" id="logo"></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right"></ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="pagina">
+        <div id="calculator">
+            <div id="schermo-calcolatrice">
+                <p id="display">0 </p>
+            </div>
+            <div id="pulsanti">
+                <div class="riga-pulsanti">
+                    <div id="clear" class="pulsante dim-2 pulsante-ac">
+                        <p class="etichetta">AC </p>
+                    </div>
+                    <div id="divide" class="pulsante dim-1 pulsante-operazioni" operatore="divide">
+                        <p class="etichetta">/ </p>
+                    </div>
+                    <div id="multiply" class="pulsante dim-1 pulsante-operazioni" operatore="moltiplica">
+                        <p class="etichetta">x </p>
+                    </div>
+                </div>
+                <div class="riga-pulsanti">
+                    <div id="seven" class="pulsante dim-1 pulsante-numero" val="7">
+                        <p class="etichetta">7 </p>
+                    </div>
+                    <div id="eight" class="pulsante dim-1 pulsante-numero" val="8">
+                        <p class="etichetta">8 </p>
+                    </div>
+                    <div id="nine" class="pulsante dim-1 pulsante-numero" val="9">
+                        <p class="etichetta">9 </p>
+                    </div>
+                    <div id="subtract" class="pulsante dim-1 pulsante-operazioni" operatore="sottrae">
+                        <p class="etichetta">- </p>
+                    </div>
+                </div>
+                <div class="riga-pulsanti">
+                    <div id="four" class="pulsante dim-1 pulsante-numero" val="4">
+                        <p class="etichetta">4 </p>
+                    </div>
+                    <div id="five" class="pulsante dim-1 pulsante-numero" val="5">
+                        <p class="etichetta">5 </p>
+                    </div>
+                    <div id="six" class="pulsante dim-1 pulsante-numero" val="6">
+                        <p class="etichetta">6 </p>
+                    </div>
+                    <div id="add" class="pulsante dim-1 pulsante-operazioni" operatore="somma">
+                        <p class="etichetta">+ </p>
+                    </div>
+                </div>
+                <div class="riga-pulsanti">
+                    <div id="one" class="pulsante dim-1 pulsante-numero" val="1">
+                        <p class="etichetta">1 </p>
+                    </div>
+                    <div id="two" class="pulsante dim-1 pulsante-numero" val="2">
+                        <p class="etichetta">2 </p>
+                    </div>
+                    <div id="three" class="pulsante dim-1 pulsante-numero" val="3">
+                        <p class="etichetta">3 </p>
+                    </div>
+                    <div id="decimal" class="pulsante dim-1 pulsante-decimale">
+                        <p class="etichetta">. </p>
+                    </div>
+                </div>
+                <div class="riga-pulsanti">
+                    <div id="zero" class="pulsante dim-1 pulsante-numero" val="0">
+                        <p class="etichetta">0 </p>
+                    </div>
+                    <div id="equals" class="pulsante dim-1 pulsante-uguale">
+                        <p class="etichetta">= </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/funzioniCalcolatrice.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeCodeCamp - Responsive Web Design - Survey Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand navbar-link" href="http://stranianelli.com/freecodecamp/"><img src="http://stranianelli.com/freecodecamp/icon-nome-fcc-svg.svg" id="logo"></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right"></ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="main">
+        <div id="introduzione">
+            <h1 id="title">Survey Form</h1>
+            <p id="description">In questo esercizio viene richiesto di creare un sondaggio. Non è necessario raccogliere davvero le risposte, la cosa fondamentale è che ci siano i vari tipi di controllo. Quindi, ecco qui il mio sondaggio online.</p>
+        </div>
+        <div id="questionario">
+            <form id="survey-form">
+                <div class="form-group has-feedback">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label class="control-label" for="name" id="name-label">Nome </label>
+                        </div>
+                        <div class="col-md-10">
+                            <input class="form-control input-lg" type="text" required="" placeholder="nome" id="name">
+                        </div>
+                    </div><i class="form-control-feedback glyphicon glyphicon-asterisk" aria-hidden="true"></i></div>
+                <div class="form-group has-feedback">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label class="control-label" for="email" id="email-label">Email </label>
+                        </div>
+                        <div class="col-md-10">
+                            <input class="form-control input-lg" type="email" required="" placeholder="email" inputmode="email" id="email">
+                        </div>
+                    </div><i class="form-control-feedback glyphicon glyphicon-asterisk" aria-hidden="true"></i></div>
+                <div class="form-group has-feedback">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label class="control-label" for="number" id="number-label">Età </label>
+                        </div>
+                        <div class="col-md-10">
+                            <input class="form-control input-lg" type="number" required="" placeholder="18" min="14" max="99" step="1" id="number">
+                        </div>
+                    </div><i class="form-control-feedback glyphicon glyphicon-asterisk" aria-hidden="true"></i></div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label class="control-label">Hobby </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="radio">
+                                <label class="control-label" for="hobby-leggere">
+                                    <input type="radio" name="hobby" value="leggere" id="hobby-leggere">Leggere</label>
+                            </div>
+                            <div class="radio">
+                                <label class="control-label" for="hobby-film">
+                                    <input type="radio" name="hobby" value="film" id="hobby-film">Film e serie tv</label>
+                            </div>
+                            <div class="radio">
+                                <label class="control-label" for="hobby-radio">
+                                    <input type="radio" name="hobby" value="radio" id="hobby-radio">Ascoltare la radio</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label class="control-label" for="dropdown" id="dropdown-label">Genere Preferito</label>
+                        </div>
+                        <div class="col-md-10">
+                            <select class="form-control input-lg" id="dropdown">
+                                <optgroup label="Scegli un genere">
+                                    <option value="11" selected="">Romanzo</option>
+                                    <option value="12">Racconto</option>
+                                    <option value="13">Fiaba</option>
+                                    <option value="14">Storiografia</option>
+                                    <option value="15">Biografia</option>
+                                    <option value="16">Diario</option>
+                                    <option value="17">Poesia</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label class="control-label">Cosa ti piace</label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="checkbox">
+                                <label class="control-label">
+                                    <input type="checkbox" name="piace" value="gatti">Gatti</label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="control-label">
+                                    <input type="checkbox" name="piace" value="cani">Cani</label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="control-label">
+                                    <input type="checkbox" name="piace" value="pappagalli">Pappagalli</label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="control-label">
+                                    <input type="checkbox" name="piace" value="pesci-rossi">Pesci rossi</label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="control-label">
+                                    <input type="checkbox" name="piace" value="canarini">Canarini</label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="control-label">
+                                    <input type="checkbox" name="piace" value="criceti">Criceti</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label class="control-label">Mi racconti qualcosa?</label>
+                        </div>
+                        <div class="col-md-10">
+                            <textarea class="form-control" placeholder="Scrivimi quello che vuoi"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group" id="pulsante-invio">
+                    <button class="btn btn-primary btn-lg" type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <ul class="list-inline">
+                <li><a href="http://stranianelli.com">Home </a></li>
+                <li><a href="http://stranianelli.com/blog/">Blog </a></li>
+                <li><a href="http://stranianelli.com/freecodecamp/">FreeCodeCamp </a></li>
+                <li><a href="https://www.scirra.com/forum/c3-plugin-random-color_t191067" target="_blank">C3 - Random Color</a></li>
+                <li></li>
+            </ul>
+            <p class="copyright">Strani Anelli © 2017</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

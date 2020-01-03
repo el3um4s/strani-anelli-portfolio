@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeCodeCamp - Front End Frameworks - Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand navbar-link" href="http://stranianelli.com/freecodecamp/"><img src="http://stranianelli.com/freecodecamp/icon-nome-fcc-svg.svg" id="logo"></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right"></ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="pagina">
+        <div id="div-ricerca">
+            <div id="parola-da-cercare">
+                <label for="cerca" id="cerca-label">Cerca</label>
+                <input type="text" id="cerca">
+                <button class="btn btn-warning" type="button" id="pulsante-ricerca"><i class="fa fa-search" id="icona-ricerca"></i></button>
+            </div>
+            <div id="termine-random">
+                <button class="btn btn-primary" type="button" id="button-random">UNA PAROLA A CASO</button>
+            </div>
+        </div>
+        <div id="istruzioni">
+            <p>Scrivi una parola nella casella <em>cerca</em> per cercarla su Wikipedia. Oppure clicca su <em>una parola a caso</em> per cercare un termine casuale.</p>
+        </div>
+        <div id="risultati">
+            <div class="hidden risultato" vai="#">
+                <div class="card-image"><img class="img-thumbnail img-responsive immagine-piccola"></div>
+                <div class="card-testi">
+                    <div class="card-titolo">
+                        <p>Titolo </p>
+                    </div>
+                    <div class="card-riassunto">
+                        <p>Risposta </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>

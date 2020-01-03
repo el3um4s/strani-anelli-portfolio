@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeCodeCamp - Responsive Web Design - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="header">
+        <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand navbar-link" href="http://stranianelli.com/freecodecamp/"><img src="http://stranianelli.com/freecodecamp/icon-nome-fcc-svg.svg" id="header-img"></a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li role="presentation"><a href="#welcome-section" class="nav-link">About </a></li>
+                        <li role="presentation"><a href="#projects" class="nav-link">Progetti FCC</a></li>
+                        <li role="presentation"><a href="#contact" class="nav-link">Contatti </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section data-bs-parallax-bg="true" id="welcome-section" style="background-image:url(assets/img/image-welcome.jpg);background-position:center;background-size:cover;">
+        <div id="welcome-my-name">
+            <h1 class="testo-chiaro">Strani Anelli</h1>
+            <p class="testo-chiaro">Un Curioso Web Developer</p>
+        </div>
+        <div class="testo-chiaro scorri-giu"><a href="#projects" class="testo-chiaro link-chiaro"><i class="fa fa-chevron-circle-down"></i></a></div>
+    </section>
+    <section data-bs-parallax-bg="true" id="projects" style="background-image:url(assets/img/image-projects.jpg);background-position:center;background-size:cover;">
+        <div class="projects-tile">
+            <div id="project-titolo-sezione">
+                <h1 class="testo-arancione">I Miei Progetti</h1>
+                <p>Questi sono i miei progetti reallizzati per le certificazioni del Free Code Camp.</p>
+            </div>
+        </div>
+        <div id="elenco-progetti" class="project-tile">
+            <div class="scheda-progetto">
+                <div class="immagine-progetto">
+                    <a href="http://stranianelli.com/freecodecamp/responsivewebdesign/tributepage/" target="_blank" class="testo-arancione"><img class="img-thumbnail img-responsive" src="assets/img/miniatura-tribute-page.jpg"></a>
+                </div>
+                <div class="descrizione-progetto"><a href="http://stranianelli.com/freecodecamp/responsivewebdesign/tributepage/" target="_blank" class="testo-arancione"><h5 class="testo-arancione">Tribute Page</h5></a></div>
+            </div>
+            <div class="scheda-progetto">
+                <div class="immagine-progetto">
+                    <a href="http://stranianelli.com/freecodecamp/responsivewebdesign/surveyform/" target="_blank" class="testo-arancione"><img class="img-thumbnail img-responsive" src="assets/img/miniatura-survey-form.jpg"></a>
+                </div>
+                <div class="descrizione-progetto"><a href="http://stranianelli.com/freecodecamp/responsivewebdesign/surveyform/" target="_blank" class="testo-arancione"><h5 class="testo-arancione">Survey Form</h5></a></div>
+            </div>
+            <div class="scheda-progetto">
+                <div class="immagine-progetto">
+                    <a href="http://stranianelli.com/freecodecamp/responsivewebdesign/landingpage/" target="_blank"><img class="img-thumbnail img-responsive" src="assets/img/miniatura-landing-page.jpg"></a>
+                </div>
+                <div class="descrizione-progetto"><a href="http://stranianelli.com/freecodecamp/responsivewebdesign/landingpage/" target="_blank" class="testo-arancione"><h5 class="testo-arancione">Landing Page</h5></a></div>
+            </div>
+            <div class="scheda-progetto">
+                <div class="immagine-progetto">
+                    <a href="http://stranianelli.com/freecodecamp/responsivewebdesign/technicaldocumentationpage/" target="_blank" class="testo-arancione"><img class="img-thumbnail img-responsive" src="assets/img/miniatura-documento-tecnico.jpg"></a>
+                </div>
+                <div class="descrizione-progetto"><a href="http://stranianelli.com/freecodecamp/responsivewebdesign/technicaldocumentationpage/" target="_blank" class="testo-arancione"><h5 class="testo-arancione">Technical Documentation </h5></a></div>
+            </div>
+            <div class="scheda-progetto">
+                <div class="immagine-progetto">
+                    <a href="http://stranianelli.com/freecodecamp/frontendlibraries/javascriptcalculator/" target="_blank" class="testo-arancione"><img class="img-thumbnail img-responsive" src="assets/img/miniatura-calcolatrice.jpg"></a>
+                </div>
+                <div class="descrizione-progetto"><a href="http://stranianelli.com/freecodecamp/frontendlibraries/javascriptcalculator/" target="_blank" class="testo-arancione"><h5 class="testo-arancione">JavaScript Calculator </h5></a></div>
+            </div>
+            <div class="scheda-progetto">
+                <div class="immagine-progetto">
+                    <a href="http://stranianelli.com/freecodecamp/frontendlibraries/randomquotemachine/" target="_blank" class="testo-arancione"><img class="img-thumbnail img-responsive" src="assets/img/miniatura-random-quote-machine.jpg"></a>
+                </div>
+                <div class="descrizione-progetto"><a href="http://stranianelli.com/freecodecamp/frontendlibraries/randomquotemachine/" target="_blank" class="testo-arancione"><h5 class="testo-arancione">Random Quote Machine </h5></a></div>
+            </div>
+            <div class="scheda-progetto">
+                <div class="immagine-progetto">
+                    <a href="http://stranianelli.com/freecodecamp/frontendlibraries/wikipediaviewer/" target="_blank" class="testo-arancione"><img class="img-thumbnail img-responsive" src="assets/img/miniatura-wikipedia.jpg"></a>
+                </div>
+                <div class="descrizione-progetto"><a href="http://stranianelli.com/freecodecamp/frontendlibraries/wikipediaviewer/" target="_blank" class="testo-arancione"><h5 class="testo-arancione">Wikipedia Viewer </h5></a></div>
+            </div>
+        </div>
+        <div class="testo-chiaro scorri-giu"><a href="#contact" class="testo-arancione"><i class="fa fa-chevron-circle-down testo-arancione"></i></a></div>
+    </section>
+    <section data-bs-parallax-bg="true" id="contact" style="background-image:url(assets/img/image-social.jpg);background-position:center;background-size:cover;">
+        <div id="contact-div" class="social-icons sfondo-chiaro">
+            <h1 id="contattami">Contattami </h1><a href="https://twitter.com/el3um4s" target="_blank" id="profile-link-twitter"><i class="fa fa-twitter"></i></a><a href="https://www.freecodecamp.com/el3um4s" target="_blank" id="profile-link"><i class="fa fa-free-code-camp"></i></a><a href="https://github.com/el3um4s"
+            target="_blank" id="profile-link-github"><i class="fa fa-github"></i></a><a href="http://stranianelli.com/blog" target="_blank" id="profile-link-blog"><i class="fa fa-wordpress"></i></a></div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
