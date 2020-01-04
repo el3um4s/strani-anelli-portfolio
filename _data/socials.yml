@@ -1,12 +1,12 @@
 - name: facebook
-  link: www.facebook.com/stranianelli/
+  link: //www.facebook.com/stranianelli/
   fa_icona: fa fa-facebook
 - name: twitter
-  link: twitter.com/el3um4s
+  link: //twitter.com/el3um4s
   fa_icona: fa fa-twitter
 - name: github
-  link: github.com/el3um4s
+  link: //github.com/el3um4s
   fa_icona: fa fa-github
 - name: blog
-  link: stranianelli.com/blog/
+  link: //stranianelli.com/blog/
   fa_icona: fa fa-pencil-square
